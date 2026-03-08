@@ -35,11 +35,11 @@ def save_json(filename, data):
 # Загружаем базы сразу
 users_db = load_json(USERS_FILE, {})
 schedule_db = load_json(SCHEDULE_FILE, {
-    "2026-03-07 12:00": {"type": "text", "content": "Детка уже совсем скоро this is day, подготовься и сияй", "caption": None},
-    "2026-03-08 12:00": {"type": "text", "content": "Baby, с 8 марта! Будь beautiful, неотразимой, amazing и радостной", "caption": None},
-    "2026-03-09 12:00": {"type": "text", "content": "Girls, мы проверяем списки и ты уже там, совсем скоро отправим точную date и time", "caption": None},
-    "2026-03-10 12:00": {"type": "text", "content": "WELCOME TO CLUB!!! ДА ДА ТЫ НЕ ОСЛЫШАЛАСЬ. Уже завтра состоится наша встреча в ауд. в ", "caption": None},
-    "2026-03-11 15:00": {"type": "text", "content": "До финала 3 часа и уже наконец ты будешь на острове)))", "caption": None},
+    "2026-03-11 12:00": {"type": "text", "content": "Детка уже совсем скоро this is day, подготовься и сияй", "caption": None},
+    "2026-03-12 12:00": {"type": "text", "content": "Baby, с 8 марта! Будь beautiful, неотразимой, amazing и радостной", "caption": None},
+    "2026-03-13 12:00": {"type": "text", "content": "Girls, мы проверяем списки и ты уже там, совсем скоро отправим точную date и time", "caption": None},
+    "2026-03-14 12:00": {"type": "text", "content": "WELCOME TO CLUB!!! ДА ДА ТЫ НЕ ОСЛЫШАЛАСЬ. Уже завтра состоится наша встреча в ауд. в ", "caption": None},
+    "2026-03-15 15:00": {"type": "text", "content": "До финала 3 часа и уже наконец ты будешь на острове)))", "caption": None},
 })
 
 
